@@ -1,2 +1,2 @@
 # stage
-Prot en duo
+Projet en duo
