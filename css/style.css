@@ -1,17 +1,15 @@
 header {
-  border-style: outset;
-  background-color: silver;
-}
-
-li {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #000000;
+  background: linear-gradient(100deg, #bec7bf 0%, #3b413d 100%);
 }
 
 footer {
-  border-style: outset;
-  background-color: silver;
-}
-
-body {
-  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #000000;
+  background: linear-gradient(100deg, #bec7bf 0%, #3b413d 100%);
 }
