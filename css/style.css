@@ -1,0 +1,17 @@
+header {
+  border-style: outset;
+  background-color: silver;
+}
+
+li {
+  display: inline-flex;
+}
+
+footer {
+  border-style: outset;
+  background-color: silver;
+}
+
+body {
+  background-color: black;
+}
