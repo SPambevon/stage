@@ -4,15 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <meta name="viewport" content="width-device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-  <title>Kimani-IT | À propos</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <title>Kimani-IT | Contact</title>
 
 </head>
@@ -31,41 +25,41 @@
     </nav>
   </header>
 
-  <form class="container">
-    <h2>Nous contacter</h2>
-    <form>
-      <div>
-        <label>Entrer votre nom</label>
-        <input type="text" placeholder="nom">
-      </div>
-      <div>
-        <label>Entrer votre prénom</label>
-        <input type="text" placeholder="prénom">
-      </div>
-      <div>
-        <label>Tel</label>
-        <input type="tel" maxlength="10" placeholder="06xxxxxxxx">
-      </div>
-      <div>
-        <label>Entrer une adresse mail valide</label>
-        <input type="email" placeholder="name@example.com">
-      </div>
-      <br>
-      <div>
-        <label>Votre message</label>
-        <textarea></textarea>
-      </div>
-      <div>
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Accepter les termes et conditions</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Nous faire parvenir</button>
-    </form>
-  </form>
-</body>
+  <main>
 
-<footer>
-  <p>Copyright &#9400; Kimani-IT - 2021</p>
-</footer>
+    <section class="contact">
+      <div class="contact-form-container">
+
+        <form action="#">
+
+          <h2 class="underline">Nous contacter</h2>
+
+          <label class="my-20">Nom* </label>
+          <input type="text" placeholder="Entrez votre nom" required>
+
+          <label class="my-20">Prénom *</label>
+          <input type="text" placeholder="Entrez votre prénom" required>
+
+          <label class="my-20">Téléphone* </label>
+          <input type="tel" maxlength="10" placeholder="Numéro de téléphone" required>
+
+          <label class="my-20">E-mail* </label>
+          <input type="email" placeholder="Entrez votre e-mail" required>
+
+          <label class="my-20">Votre message</label>
+          <textarea placeholder="Entrez votre message (200 caractères max)" maxlength="200"></textarea>
+
+          <button type="submit" class="btn btn-dark my-20">Nous faire parvenir</button>
+
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright &#9400; Kimani-IT - 2021</p>
+  </footer>
+
+</body>
 
 </html>

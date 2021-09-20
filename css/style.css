@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.active {
+  background: #444;
+}
+
 /* général */
 
 body {
@@ -134,23 +138,7 @@ footer p {
 
 /* où */
 
-.ou {
-  padding: 180px 0px 180px 0px;
-  overflow: auto;
-  min-height: 100vh;
-}
 
-.ou-iframe {
-  float: left;
-  width: 45%;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-}
-
-.ou-texte {
-  float: right;
-  width: 50%;
-}
 
 .header nav ul li a {
   color: white;
@@ -176,6 +164,7 @@ footer p {
 }
 
 /* où */
+
 
 .ou {
   padding: 100px 0px;
@@ -204,30 +193,64 @@ footer p {
 
 /* formulaire */
 
-.form h2 {
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.contact {
+  padding: 180px 0px 100px 0px;
+  min-height: 100vh;
+
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin: auto;
+  
+}
+
+.contact-form-container form label {
+display: block;
+font-weight: 700;
+}
+
+.contact-form-container form input, textarea {
   display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.contact-form-container form textarea {
+  min-height: 80px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* bouton de soumission */
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
   font-weight: bold;
+  font-size: 14px;
+  border: 0px;
+  cursor: pointer;
 }
 
-input,
-#contact form li select {
-  display: block;
-  width: 25%;
-  padding: 5px;
+.btn-dark {
+  background: #222;
+  color: white;
+}
+
+.btn-dark:hover {
   background: white;
-  color: #fff;
-}
-
-ul {
-  padding: 0;
-}
-
-#contact textarea {
-  background: whitesmoke;
-  color: #fff;
+  color: #222;
+  border: 1px solid #222;
 }
