@@ -1,92 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Kimani-it</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-        <link href="css/style.css" type="text/css" rel="stylesheet"
-    </head>
-    <body>
-       <header>
-           <h1>
-               <a href="accueil.html">
-                   <img src="logo/logo-choisi.png">
-                   <span>Kimani-it</span>
-               </a>
-           </h1>
-           <nav>
-               <ul>
-                   <li><a href="accueil.html">Accueil</a></li>
-                   <li><a href="a-propos.html">À propos</a></li>
-                   <li><a href="a-propos.html">Nous contacter</a></li>
-               </ul>
-           </nav>
-       </header>
-       <form class="container">
-        <div class="row">
-          <div class="col">Notre bureau principal</div>
-          <div class="col">Numéro de téléphone</div>
-          <div class="col">Réseau sociaux</div>
-          <div class="col">Émail</div>
-        </div> 
-        <br>
-        <br>
-        <main id="contact">
-            <h2>Nous contacter</h2>
-            <form>
-                <ul>
-                    <li>
-                        <div>
-                            <input type="text" placeholder="Votre nom">
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <input type="text" placeholder="Votre prénom">
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <input type="email" placeholder="Votre email">
-                        </div>
-                    </li>
-                </ul>
-                <div>
-                    <textarea>
-                        Votre message ...
-                    </textarea>
-                </div>
-                <br>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Accepter les termes et conditions</label>
-                  </div>
-                  <br>
-                <div>
-                    <input type="submit" value="Envoyer le message">
-                </div>
-            </form>
-    
-        </main>
-        <footer>
-            <h1>
-                <a href="accueil.html">
-                    <img src="logo/logo-choisi.png">
-                    <span>Kimani-it</span>
-                    <span>c copyright 2021</span>
-                    <span>Kimani-it</span>
-                    <span>128 rue de la Boétie 75008, Paris</span>
-                </a>
-            </h1>
-            <ul>
-                <li><a href="contact.html">Nous contacter</a></li>
-                <li><a>En savoir +</a></li>
-            </ul>
-            <ul>
-                <li><a href="https://Linkedin.com" target="_blank">Linkedin</a></li>
-                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-            </ul>
-        </footer>
-    </body>
-    
-    </html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Kimani-IT | À propos</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <h1>
+        <a href="./accueil.html">Kimani-IT</a>
+      </h1>
+      <ul>
+        <li><a href="./accueil.html">Accueil</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./a-propos.html">À propos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <form class="container">
+    <h2>Nous contacter</h2>
+    <form>
+      <div>
+        <label>Entrer votre nom</label>
+        <input type="text" placeholder="nom">
+      </div>
+      <div>
+        <label>Entrer votre prénom</label>
+        <input type="text" placeholder="prénom">
+      </div>
+      <div>
+        <label>Tel</label>
+        <input type="tel" maxlength="10" placeholder="06xxxxxxxx">
+      </div>
+      <div>
+        <label>Entrer une adresse mail valide</label>
+        <input type="email" placeholder="name@example.com">
+      </div>
+      <div>
+        <label>Votre message</label>
+        <textarea></textarea>
+      </div>
+      <div>
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Accepter les termes et conditions</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Nous faire parvenir</button>
+    </form>
+  </form>
+</body>
+
+<footer>
+  <p>Copyright &#9400; Kimani-IT - 2021</p>
+</footer>
+
+</html>
               

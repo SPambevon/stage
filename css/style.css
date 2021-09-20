@@ -1,89 +1,140 @@
-img {
-  max-width: 100px;
-  height: 100px;
-}
+/* défaut */
 
-ul {
+* {
+  margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-li {
+/* général */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #222;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.souligne {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.rond {
+  display: inline-block;
+  text-align: center;
+  width: 25px;
+  padding: 1px;
+  border-radius: 100%;
+  background: #333;
+  color: black;
+}
+
+.jaune {
+  background: rgb(254, 206, 0);
+}
+
+.vert {
+  background: rgb(213, 201, 0);
+}
+
+.rect-vert {
+  background: #6e6e00;
+}
+
+.rect-marron {
+  background: #6e5b1e;
+}
+
+.texte-blanc {
+  color: white;
+}
+
+/* header */
+
+.header {
+  background: #333;
+  overflow: auto;
+  line-height: 1.7em;
+}
+
+.header nav h1 {
+  float: left;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.header nav h1 a {
+  color: white;
+}
+
+.header nav ul {
+  float: right;
   list-style: none;
 }
 
-h1 {
-  font-size: 40px;
+.header nav ul li {
+  float: left;
 }
 
-h2 {
-  font-size: 35px;
+.header nav ul li a {
+  color: white;
+  padding: 20px;
+  display: block;
 }
 
-h3 {
-  font-size: 30px;
+.header nav ul li a:hover {
+  background: #444;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  border: 1px solid #000000;
-  background: linear-gradient(100deg, #bec7bf 0%, #3b413d 100%);
-}
-
-header a {
-  color: #fff;
-}
-
-header ul {
-  display: flex;
-  justify-content: space-between;
-}
-
-header h1 {
-  width: 35%;
-  margin: 0;
-}
-
-header h1 a {
-  display: flex;
-  align-items: center;
-}
-
-header h1 img {
-  margin-right: 20px;
-}
-
-header nav {
-  width: 65%;
-}
+/* footer */
 
 footer {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  border: 1px solid #000000;
-  background: linear-gradient(100deg, #bec7bf 0%, #3b413d 100%);
+  background: #222;
+  color: white;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
 }
 
-footer h1 a {
-  display: flex;
-  align-items: center;
+footer p {
+  margin-bottom: 0px;
 }
 
-footer h1 img {
-  margin-right: 20px;
+/* où */
+
+.ou {
+  padding: 180px 0px 180px 0px;
+  overflow: auto;
+  min-height: 100vh;
 }
 
-footer a {
-  color: #fff;
+.ou-iframe {
+  float: left;
+  width: 45%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
 }
 
-footer h1 {
-  width: 35%;
-  margin: 0;
-}
-
-footer ul {
-  width: 32.5%;
+.ou-texte {
+  float: right;
+  width: 50%;
 }
