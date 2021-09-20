@@ -78,6 +78,7 @@ a {
 
 .rect-marron {
   background: #6e5b1e;
+  border-radius: 10%;
 }
 
 .texte-blanc {
