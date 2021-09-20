@@ -9,6 +9,7 @@
 /* général */
 
 body {
+<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
   color: #222;
 }
@@ -16,6 +17,13 @@ body {
 h1,
 h2,
 h3 {
+=======
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+}
+
+h1, h2, h3 {
+>>>>>>> cb847998c033de6726b18ac396e4b5639b6c6bcb
   margin-bottom: 20px;
 }
 
@@ -57,8 +65,16 @@ a {
   background: rgb(213, 201, 0);
 }
 
+<<<<<<< HEAD
 .rect-vert {
   background: #6e6e00;
+=======
+
+.rect-vert {
+  background: #6e6e00;
+  border-radius: 10%;
+  
+>>>>>>> cb847998c033de6726b18ac396e4b5639b6c6bcb
 }
 
 .rect-marron {
@@ -94,6 +110,7 @@ a {
 
 .header nav ul li {
   float: left;
+<<<<<<< HEAD
 }
 
 .header nav ul li a {
@@ -137,4 +154,57 @@ footer p {
 .ou-texte {
   float: right;
   width: 50%;
+=======
+}
+
+.header nav ul li a {
+  color: white;
+  padding: 20px;
+  display: block;
+>>>>>>> cb847998c033de6726b18ac396e4b5639b6c6bcb
+}
+
+.header nav ul li a:hover {
+  background: #444;
+}
+
+/* footer */
+
+footer {
+
+  background: #222;
+  color: white;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
+}
+  
+/* où */
+
+.ou {
+  padding: 100px 0px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.ou-iframe {
+  float: left;
+  width: 45%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: #888 2px 2px 2px 2px;
+}
+
+.ou-texte {
+  float: right;
+  width: 50%;
+}
+
+/* texte */
+
+.texte {
+  padding-top: 100px;
 }
