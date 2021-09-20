@@ -35,6 +35,7 @@ a {
 .souligne {
   padding-bottom: 10px;
   border-bottom: 1px solid #ddd;
+}
 
 .rond {
   display: inline-block;
@@ -116,7 +117,7 @@ footer {
 
 footer p {
   margin-bottom: 0px;
-
+}
   
 /* où */
 
@@ -131,6 +132,7 @@ footer p {
   width: 45%;
   border: 1px solid #ddd;
   border-radius: 10px;
+  box-shadow: #888 2px 2px 2px 2px;
 }
 
 .ou-texte {
