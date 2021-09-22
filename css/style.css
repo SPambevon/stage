@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /* général */
 
 body {
@@ -14,14 +13,12 @@ body {
   padding: 0;
 }
 
-
 h2,
 h3 {
   font-family: "Open Sans", sans-serif;
   color: #222;
   margin-bottom: 20px;
 }
-
 
 p {
   margin-bottom: 10px;
@@ -87,7 +84,6 @@ a {
   line-height: 1.7em;
 }
 
-
 /* footer */
 
 footer {
@@ -100,7 +96,6 @@ footer {
 footer p {
   margin-bottom: 0px;
 }
-
 
 /* footer */
 
@@ -152,21 +147,20 @@ footer p {
 .contact {
   padding: 90px 0px 100px;
   min-height: 100vh;
-
 }
 
 .contact-form-container {
   max-width: 600px;
   margin: auto;
-  
 }
 
 .contact-form-container form label {
-display: block;
-font-weight: 700;
+  display: block;
+  font-weight: 700;
 }
 
-.contact-form-container form input, textarea {
+.contact-form-container form input,
+textarea {
   display: block;
   width: 100%;
   padding: 15px;
@@ -218,7 +212,7 @@ font-weight: 700;
 
 .brand-title {
   font-size: 1.5rem;
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 .navbar-links ul {
@@ -244,7 +238,7 @@ font-weight: 700;
 
 .toggle-button {
   position: absolute;
-  top: .75rem;
+  top: 0.75rem;
   right: 1rem;
   display: none;
   flex-direction: column;
@@ -285,10 +279,145 @@ font-weight: 700;
   }
 
   .navbar-links li a {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
   }
 
   .navbar-links.active {
     display: flex;
   }
+}
+
+/* accueil */
+
+main.masthead {
+  min-height: 100vh;
+  padding-top: 17rem;
+  padding-bottom: 12.5rem;
+}
+
+main.masthead {
+  padding-top: 16rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+main {
+  display: block;
+}
+
+.container {
+  max-width: 1320px;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+/* h2 */
+
+main.masthead .masthead-subheading {
+  font-size: 5.25rem;
+  font-style: italic;
+  line-height: 5.25rem;
+  margin-bottom: 5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+/* h3 */
+
+main.masthead .masthead-heading {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  margin-bottom: 4rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+/* bouton */
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #ffc800;
+  border-color: #ffc800;
+}
+.btn {
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#titre {
+  font-size: 70px;
+}
+
+#sous-titre {
+  font-size: 35px;
+  margin-bottom: 50px;
 }
