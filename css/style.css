@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 /* général */
 
 body {
@@ -13,12 +14,14 @@ body {
   padding: 0;
 }
 
+
 h2,
 h3 {
   font-family: "Open Sans", sans-serif;
   color: #222;
   margin-bottom: 20px;
 }
+
 
 p {
   margin-bottom: 10px;
@@ -84,6 +87,7 @@ a {
   line-height: 1.7em;
 }
 
+
 /* footer */
 
 footer {
@@ -96,6 +100,7 @@ footer {
 footer p {
   margin-bottom: 0px;
 }
+
 
 /* footer */
 
@@ -147,20 +152,21 @@ footer p {
 .contact {
   padding: 90px 0px 100px;
   min-height: 100vh;
+
 }
 
 .contact-form-container {
   max-width: 600px;
   margin: auto;
+  
 }
 
 .contact-form-container form label {
-  display: block;
-  font-weight: 700;
+display: block;
+font-weight: 700;
 }
 
-.contact-form-container form input,
-textarea {
+.contact-form-container form input, textarea {
   display: block;
   width: 100%;
   padding: 15px;
@@ -212,7 +218,7 @@ textarea {
 
 .brand-title {
   font-size: 1.5rem;
-  margin: 0.5rem;
+  margin: .5rem;
 }
 
 .navbar-links ul {
@@ -238,7 +244,7 @@ textarea {
 
 .toggle-button {
   position: absolute;
-  top: 0.75rem;
+  top: .75rem;
   right: 1rem;
   display: none;
   flex-direction: column;
@@ -279,14 +285,13 @@ textarea {
   }
 
   .navbar-links li a {
-    padding: 0.5rem 1rem;
+    padding: .5rem 1rem;
   }
 
   .navbar-links.active {
     display: flex;
   }
 }
-
 /* accueil */
 
 main.masthead {
