@@ -18,11 +18,36 @@ body {
   padding: 0;
 }
 
+#cover {
+  background-image: url(../images/pexels-kevin-ku-577585.jpg);
+}
+
+#apropos {
+  background-image: url(../images/pexels-photo-1103970.jpeg);
+}
+
+#sand {
+  background-image: url(../images/sand.jpeg);
+}
+
 h2,
 h3 {
   font-family: "Open Sans", sans-serif;
-  color: #222;
+  color: #fff;
   margin-bottom: 20px;
+}
+
+#titre,
+#sous-titre {
+  color: #fff;
+}
+
+section.contact {
+  color: #fff;
+}
+
+.black {
+  color: #222;
 }
 
 p {
@@ -42,7 +67,7 @@ a {
 
 .souligne {
   padding-bottom: 10px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #222;
 }
 
 .rond {
