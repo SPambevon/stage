@@ -6,6 +6,11 @@
 
 /* général */
 
+#logo-web {
+  height: 64px;
+  width: 64px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #222;
@@ -423,7 +428,7 @@ div {
 
 /* reseau sociaux */
 
-img {
+.icon-sm {
   width: 30px;
   height: 30px;
 }
@@ -437,5 +442,5 @@ img {
 #text-right {
   text-align: right;
   margin-right: 15%;
-  margin-top: -26px;
+  margin-top: -48px;
 }
